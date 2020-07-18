@@ -1,0 +1,25 @@
+h1{
+    margin:0px;
+  }
+  #container {
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    margin:10%;
+  }
+  #clear{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1.2rem;
+    font-family:monospace;
+    color:white;
+    margin-top:2%;
+    background: linear-gradient(#e66465, #9198e5);
+    
+  }
+  .grid-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
